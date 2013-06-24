@@ -35,6 +35,7 @@ app.get('/users', user.list);
 app.get('/v1/movies', movie.movies);
 app.get('/v1/movies/1/details', movie.details);
 app.get('/v1/movies/1/trailers', movie.trailers);
+app.get('/v1/movies/1/galleries', movie.galleries);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

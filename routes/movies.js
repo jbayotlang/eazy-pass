@@ -1,6 +1,7 @@
 var data = require('../sample_data/movies'),
 	details = require('../sample_data/movie_details'),
-	youtube = require('../sample_data/trailer');
+	youtube = require('../sample_data/trailer'),
+	images = require('../sample_data/gallery');
 
 
 exports.movies = function(req, res) {
@@ -13,4 +14,8 @@ exports.details = function(req, res) {
 
 exports.trailers = function(req, res) {
 	res.json(youtube.trailers);
+}
+
+exports.galleries = function(req, res) {
+	res.json(images.movieStills);
 }
