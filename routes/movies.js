@@ -1,31 +1,12 @@
-/**
-* Sample Data
-*
-**/
+var data = require('../sample_data/movies');
+var details = require('../sample_data/movie_details');
 
-var movies = [
- {
- 	id: 1,
- 	poster: "http://1.bp.blogspot.com/-sRraJu_vlPE/UYRFSMIxanI/AAAAAAAAAVU/pseCMLaEwPA/s1600/iron-man-3-poster.jpg"
- },
- {	
- 	id: 2,
- 	poster: "http://collider.com/wp-content/uploads/star-trek-2-into-darkness-poster.jpg"
- },
- {
- 	id: 3,
- 	poster: "http://1.bp.blogspot.com/-FhFiLWFPkZg/UV4WiY4y8cI/AAAAAAAAAPc/hewzpLquT40/s1600/ff6-new-movie-poster.jpg"
- },
- {
- 	id: 4,
- 	poster: "http://1.bp.blogspot.com/-yKOBq1-ASZI/UUG_X55Da0I/AAAAAAAAAG8/cQL1PZli8bE/s400/after-earth-ugly-poster.jpg"
- }
-
-]
-
-
-
+console.log(details.movieDetails);
 
 exports.movies = function(req, res) {
-	res.json(movies);
+	res.json(data.movies);
+}
+
+exports.details = function(req, res) {
+	res.json(details.movieDetails);
 }
