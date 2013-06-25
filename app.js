@@ -36,12 +36,14 @@ var dbhost = 'ds031988.mongolab.com';
 var dbport = 31988;
 
 var dbserver = new mongo.Server(dbhost, dbport, {});
-var dbconnector = new mongo.Db('test', dbserver, {});
+var dbconnector = new mongo.Db('eazy-pass', dbserver, {});
 
 dbconnector.open(function(err,db) {
-  db.authenticate('jhudiel.bayotlang', 'hcmBay01', function(err, success) {
+  db.authenticate('admin', 'admin', function(err, success) {
     if(err) {
-    	console.log(err);
+      console.log(err);
+    } else {
+      console.log("OK");
     }
   });
 });
