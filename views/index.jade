@@ -2,21 +2,23 @@ extends layout
 
 block content
     #wrap.ep-container
-        .container
+        .container.floatLeft.green
+            h1 Eazy-Pass Administration Page
+        .container.floatLeft
             form.form-horizontal
                 fieldset
-                    legend Login
+                    legend EazyPass Login
                     .control-group
                         label.control-label(for='input01') Username
                         .controls
-                            input#input01.input-xlarge(type='text')
+                            input#input01.input-xlarge(type='text', name="username")
                     .control-group
                         label.control-label(for='input02') Password
                         .controls
-                            input#input02.input-xlarge(type='password')
+                            input#input02.input-xlarge(type='password', poster="password")
                     .control-group
                         .controls
-                            input.btn.btn-success(type='submit')
+                            input.btn.btn-success(type='submit', value="Login")
 
 
         #push

@@ -10,14 +10,14 @@ Sandbox.prototype.getAll = function(collection, callback) {
         if(error) {
             callback(new Error('Error: ' + error));
         } else {
-            callback(null, 'No saved movies');
+            callback(null, results);
         }
     });
 }
 
-Sandbox.prototype.findById = function(collection, id, callback) {
+Sandbox.prototype.findById = function(id, collection, callback) {
 
-    return core.findById(collection, id, function(error, result) {
+    return core.findById(id, collection, function(error, result) {
         if(error) {
             callback(new Error('Error: ' + error));
         } else {
@@ -37,6 +37,18 @@ Sandbox.prototype.findByQuery = function(filter, collection, callback) {
 
         }
     });
+}
+
+Sandbox.prototype.save = function(entity, collection, callback) {
+    var self = this;
+
+    return core.insert(entity, collection, function(error, result) {
+        if(error) {
+            callback(error);
+        } else {
+            callback(null, result);
+        }
+    })
 }
 
 Sandbox.prototype.GUID = function() {

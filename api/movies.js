@@ -12,8 +12,6 @@ MovieService.prototype.GET= function() {
 	var self = this
         , id = self.request.param('id');
 
-    console.log(id);
-
 	if (self.request.param('id')) {
 
         movieModule.getMovieById(id, function(error, result) {
@@ -37,9 +35,18 @@ MovieService.prototype.GET= function() {
 };
 
 MovieService.prototype.POST= function() {
-	var self = this;
+	var self = this,
+        movie = self.request.body;
 
-	self.response.json()
+	movieModule.createNewMovieEntry(movie, function(error, result) {
+        if(error) {
+            self.response.json(error);
+        } else {
+            self.response.status(201);
+            console.log(result);
+            self.response.json(result);
+        }
+    });
 };
 
 MovieService.prototype.PUT = function() {

@@ -6,8 +6,8 @@
 var express = require('express')
   , routes = require('./routes')
   , user = require('./routes/user')
-  , page = require('./routes/dashboard')
-  , movie = require('./routes/movies')
+  , admin = require('./routes/dashboard')
+  , movieModule = require('./routes/movie')
   , http = require('http')
   , path = require('path')
   , ID = require('mongodb').ObjectID
@@ -34,7 +34,10 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/admin/dashboard', page.dashboard);
+app.get('/admin/dashboard', admin.dashboard);
+
+app.get('/admin/dashboard/movie', movieModule.movie);
+app.get('/admin/dashboard/movie/create', movieModule.movieForm);
 app.get('/users', user.list);
 
 

@@ -44,12 +44,14 @@ core.findAll = function(collection, callback) {
       })
 };
 
-core.findById = function(collection, id, callback) {
+core.findById = function(id, collection, callback) {
+
     getCollection(collection, function(error, collection) {
-        collection.find({id: id}, function(error, result) {
+        collection.findOne({id: id}, function(error, result) {
             if (error) {
                 callback(error);
             } else {
+                console.log(result);
                 callback(null, result);
             }
         });
@@ -65,11 +67,11 @@ core.findByQuery = function(collection, filter, callback) {
       })
 }
 
-core.save = function(entity, collection, callback) {
-      getCollection(globals.collection[collection], function(error, collection) {
-          collection.insert(entity, function(error) {
-              if(error) callback(error);
-              else callback(null);
+core.insert = function(entity, collection, callback) {
+      getCollection(collection, function(error, collection) {
+          collection.insert(entity, function(error, result) {
+              if(error) { callback(error); }
+              else { callback(null, result); }
           })
       })
 }
@@ -102,8 +104,8 @@ function S4() {
 
  function getCollection(collection, callback) {
     EazyPassDB.collection(collection, function(error, collection) {
-        if (error) callback(error);
-        else callback(null, collection);
+        if (error) { callback(error); }
+        else { callback(null, collection); }
     })
 }
 

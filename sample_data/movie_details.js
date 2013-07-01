@@ -8,4 +8,4 @@ exports.movieDetails = {
 };
 
 
-
+'Star Trek into Darkness', '15 May 2013', 'When the crew of the Enterprise is called back home, they find an unstoppable force of terror from within their own organization has detonated the fleet and everything it stands for, leaving our world in a state of crisis. With a personal score to settle, Captain Kirk leads a manhunt to a war-zone world to capture a one man weapon of mass destruction. As our heroes are propelled into an epic chess game of life and death, love will be challenged, friendships will be torn apart, and sacrifices must be made for the only family Kirk has left: his crew.', 'Action, Adventure, Sci-Fi, Thriller', 'J.J. Abrams', 'Chris Pine, Zachary Quinto, Zoe Saldana, Karl Urban'

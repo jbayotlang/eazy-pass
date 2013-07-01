@@ -1,0 +1,81 @@
+//
+   Created with JetBrains WebStorm.
+   User: jhudiel
+   Date: 7/2/13
+   Time: 3:24 AM
+   To change this template use File | Settings | File Templates.
+
+extends layout
+
+block content
+    .navbar
+        .navbar-inner
+
+            ul.nav
+                li.active
+                    a(href="#") EazyPass
+            ul.nav.pull-right
+                li.dropdown
+                    a(href="#",data-toggle="dropdown").dropdown-toggle Admin
+                        b.caret
+                ul.dropdown-menu
+                    li Edit Profile
+                    li Logout
+    #wrap.ep-container
+        .container
+            form(method='post', action="/v1/movies", style="margin: 0; padding: 0").form-horizontal
+                fieldset
+                    legend Create new movie
+                    .control-group
+                        label.control-label(for='input01') Name
+                        .controls
+                            input#input01.input-xlarge(type='text', name="name")
+                    .control-group
+                        label.control-label(for='input01') Theatre Date
+                        .controls
+                            input#input01.input-xlarge(type='text', name="date")
+                    .control-group
+                        label.control-label(for='input02') Poster
+                        .controls
+                            input#input02.input-xlarge(type='text', name="poster")
+                            span.help-block (URL of the poster)
+                    .control-group
+                        label.control-label(for='input02') Trailer
+                        .controls
+                            input#input02.input-xlarge(type='text', name="trailer")
+                            span.help-block (URL of the trailer)
+                    .control-group
+                        label.control-label(for='input02') Director
+                        .controls
+                            input#input02.input-xlarge(type='text', name="director")
+                    .control-group
+                        label.control-label(for='input02') Cast
+                        .controls
+                            input#input02.input-xlarge(type='text', name="cast")
+                            span.help-block (Separate with commas)
+                    .control-group
+                        label.control-label(for='input02') Genre
+                        .controls
+                            input#input02.input-xlarge(type='text', name="genre")
+                            span.help-block (Separate with commas)
+                    .control-group
+                        label.control-label(for='input02') Synopsis
+                        .controls
+                            textarea#input02.input-xlarge(name="synopsis", style="height: 150px")
+                    .control-group
+                        label.control-label(for='input02') Gallery images
+                        .controls
+                            input#input02.input-xlarge(type='text', name="gallery[]")
+                    .control-group
+                        .controls
+                            input#input02.input-xlarge(type='text', name="gallery[]")
+                    .control-group
+                        .controls
+                            input#input02.input-xlarge(type='text', name="gallery[]")
+                    .control-group
+                        .controls
+                            input#input02.input-xlarge(type='text', name="gallery[]")
+                    .control-group
+                        .controls
+                            input.btn.btn-success(type='submit', value="Create")
+        #push

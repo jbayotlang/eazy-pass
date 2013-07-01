@@ -14,6 +14,10 @@
     padding-top: 70px;
 }
 
+#footer p {
+    margin-top: 20px;
+}
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -60,10 +64,29 @@ body {
 
 .container {
     width: auto;
-    max-width: 680px;
+    max-width: 550px;
 }
 .container .credit {
-    margin: 20px 0;
+    /*margin: 20px 0;*/
 }
 
+.floatLeft {
+    float:left;
+}
 
+.container h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.container form {
+    margin-top: 100px;
+}
+
+.green {
+    background: #5bb75b;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-top: 180px;
+}

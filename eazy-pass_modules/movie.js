@@ -28,21 +28,33 @@ exports.MovieModule = function() {
         },
 
         getMovieById: function(id, callback) {
-            sandbox.findById('movie', id, function(error, result) {
+            sandbox.findById(id, 'movie', function(error, result) {
                 if(error) {
                     callback(error);
                 } else {
-                   if(!result) {
-                       callback(null, results);
+                   if(result.length <= 0) {
+
+                       callback(null, 'No movie for id: ' + id);
                     } else {          1
-                        callback(null, 'No movie for id: ' + id);
+                       callback(null, result);
                     }
                 }
             });
         },
 
-        createNewMovie: function(movie) {
-            return null;
+        createNewMovieEntry: function(movie, callback) {
+            var id = sandbox.GUID();
+            movie['id'] = id;
+            console.log(movie);
+
+            sandbox.save(movie, 'movie', function(error, result) {
+               if(error) {
+                   callback(error);
+               } else {
+                   console.log(result);
+                   callback(null, result);
+               }
+            });
         },
 
         getMovieGallery: function(id) {
