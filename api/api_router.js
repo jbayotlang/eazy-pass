@@ -1,20 +1,21 @@
 var EasyPassServices = { },
-	MovieService = require('./movies');
+	MovieService = require('./movies'),
 
 EasyPassServices = {
 		'movies': MovieService
 }
 
 exports.router = function(req, res) {
-	console.log('in router!', req.params('resource'));
+	console.log('in router!', req.param('resource'));
 	var resource = req.param('resource').toLowerCase(),
-		id = req.params('id'),
+		id = req.param('id'),
 		method = req.method,
 		service = new EasyPassServices[resource](req, res);
 
-	if(service) {
-		service[method]();
+	if(!service) {
+        throw new Error('no service found for resource ' + resource);
 	} else {
-		throw new Error('no service found for resource ' + resource);
+
+        service[method]();
 	}
 }

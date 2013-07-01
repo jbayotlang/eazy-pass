@@ -1,0 +1,40 @@
+//
+   Created with JetBrains WebStorm.
+   User: jhudiel
+   Date: 6/26/13
+   Time: 9:34 PM
+   To change this template use File | Settings | File Templates.
+
+extends layout
+
+block content
+    .navbar
+      .navbar-inner
+
+          ul.nav
+            li.active
+                a(href="#") EazyPass
+          ul.nav.pull-right
+            li.dropdown
+              a(href="#",data-toggle="dropdown").dropdown-toggle Admin
+                b.caret
+            ul.dropdown-menu
+              li Edit Profile
+              li Logout
+    #wrap.ep-container
+        .container
+          h1 Welcome to EazyPass Administrator Page
+          h3 What would you like to do today?
+        #tile-container
+            ul.thumbnails
+                li.span3.tile.tile-double.tile-green
+                    a(href='#')
+                        h1 Movies
+                li.span3.tile.tile-double.tile-green
+                    a(href='#')
+                        h1 Users
+                li.span3.tile.tile-double.tile-green
+                    a(href='#')
+                        h1 Users
+
+        #push
