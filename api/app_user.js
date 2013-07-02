@@ -21,7 +21,7 @@ AppUserService.prototype.GET= function() {
 
     if (self.request.param('id')) {
 
-        movieModule.getUserById(id, function(error, result) {
+        appUserModule.getUserById(id, function(error, result) {
             if(error) {
                 self.response.json(error);
             } else {
@@ -30,7 +30,7 @@ AppUserService.prototype.GET= function() {
             }
         })
     } else {
-        movieModule.getAllUsers(function(error, results) {
+        appUserModule.getAllUsers(function(error, results) {
             if (error) {
                 self.response.json(error);
             } else {
@@ -45,7 +45,7 @@ AppUserService.prototype.POST= function() {
     var self = this,
         app_user = self.request.body;
 
-    movieModule.registerUser(app_user, function(error, result) {
+    appUserModule.registerUser(app_user, function(error, result) {
         if(error) {
             self.response.json(error);
         } else {
