@@ -13,14 +13,17 @@ block content
 
             ul.nav
                 li.active
-                    a(href="#") EazyPass
+                    a(href="/admin/dashboard/movie") EazyPass / Create new movie
             ul.nav.pull-right
 
     #wrap.ep-container
         .container
+            #notif.alert.alert-success
+                p Movie entry created!
+            .progress
+                .bar
             form(style="margin: 0; padding: 0").form-horizontal
                 fieldset
-                    legend Create new movie
                     .control-group
                         label.control-label(for='ep-name') Name
                         .controls
@@ -74,9 +77,7 @@ block content
                         .controls
                             input#createMovie.btn.btn-success(type='submit', value="Create")
 
+
         #push
-        #notif.alert.alert-success
-            p Movie entry created!
-        .progress
-            .bar
+
         script(src='/static/js/submit.js')

@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/createMovie.jade" afterPath="$PROJECT_DIR$/views/createMovie.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/dashboard.jade" afterPath="$PROJECT_DIR$/views/dashboard.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/eazy-pass.css" afterPath="$PROJECT_DIR$/public/stylesheets/eazy-pass.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/movie.jade" afterPath="$PROJECT_DIR$/views/movie.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eazy-pass_modules/movie.js" afterPath="$PROJECT_DIR$/eazy-pass_modules/movie.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/movie.js" afterPath="$PROJECT_DIR$/routes/movie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample_data/movie_details.js" afterPath="$PROJECT_DIR$/sample_data/movie_details.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/movies.js" afterPath="$PROJECT_DIR$/api/movies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample.js" afterPath="$PROJECT_DIR$/sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/submit.js" afterPath="$PROJECT_DIR$/public/js/submit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/updateForm.jade" afterPath="$PROJECT_DIR$/views/updateForm.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eazy-pass.iws" />
@@ -25,7 +20,7 @@
     <file path="/layout.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372252159498" ignored="false" />
     <file path="/index.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372754383442" ignored="false" />
     <file path="/eazy-pass.css" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372742344352" ignored="false" />
-    <file path="/dashboard.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372743146543" ignored="false" />
+    <file path="/dashboard.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372758022794" ignored="false" />
     <file path="/dashboard.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372253951815" ignored="false" />
     <file path="/index.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372254098200" ignored="false" />
     <file path="/core.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372713678572" ignored="false" />
@@ -39,7 +34,7 @@
     <file path="$PROJECT_DIR$/../../POC/Data-Dictionary/app.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372670755154" ignored="false" />
     <file path="$PROJECT_DIR$/../../POC/Data-Dictionary/app2.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372571571386" ignored="false" />
     <file path="/app2.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372571555011" ignored="false" />
-    <file path="/movie.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372743022395" ignored="false" />
+    <file path="/movie.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372757937564" ignored="false" />
     <file path="$PROJECT_DIR$/../../POC/Data-Dictionary/validation.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372577545491" ignored="false" />
     <file path="/sample_module.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372583217044" ignored="false" />
     <file path="$PROJECT_DIR$/../../POC/Data-Dictionary/sample_module.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372583217665" ignored="false" />
@@ -49,10 +44,10 @@
     <file path="/main.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372665930107" ignored="false" />
     <file path="$PROJECT_DIR$/../../POC/Data-Dictionary/addDataDB.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372669124857" ignored="false" />
     <file path="/addDataDB.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372669112298" ignored="false" />
-    <file path="/createMovie.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372755541037" ignored="false" />
+    <file path="/createMovie.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372757999859" ignored="false" />
     <file path="/app_user.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372720914441" ignored="false" />
-    <file path="/movie.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372751776526" ignored="false" />
-    <file path="/updateForm.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372744433747" ignored="false" />
+    <file path="/movie.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372758067919" ignored="false" />
+    <file path="/updateForm.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372758318414" ignored="false" />
     <file path="/submit.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372755595575" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,43 +67,35 @@
     <favorites_list name="eazy-pass" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.52100843">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="createMovie.jade" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/views/createMovie.jade">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="80" column="12" selection-start="3567" selection-end="3567" vertical-scroll-proportion="0.8958333">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/views/index.jade">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="8" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="submit.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/public/js/submit.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="48" column="50" selection-start="1382" selection-end="1382" vertical-scroll-proportion="0.40104166">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="movie.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/movie.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="67" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="updateForm.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/updateForm.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="50" selection-start="315" selection-end="315" vertical-scroll-proportion="0.3820034">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="49" selection-start="814" selection-end="830" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -131,17 +118,17 @@
         <option value="$PROJECT_DIR$/sample_data/movie_details.js" />
         <option value="$PROJECT_DIR$/sample.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/eazy-pass.css" />
-        <option value="$PROJECT_DIR$/routes/movie.js" />
-        <option value="$PROJECT_DIR$/views/dashboard.jade" />
-        <option value="$PROJECT_DIR$/views/updateForm.jade" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
-        <option value="$PROJECT_DIR$/views/movie.jade" />
         <option value="$PROJECT_DIR$/eazy-pass_modules/movie.js" />
         <option value="$PROJECT_DIR$/api/movies.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/public/js/submit.js" />
+        <option value="$PROJECT_DIR$/routes/movie.js" />
         <option value="$PROJECT_DIR$/views/createMovie.jade" />
+        <option value="$PROJECT_DIR$/views/dashboard.jade" />
+        <option value="$PROJECT_DIR$/views/movie.jade" />
+        <option value="$PROJECT_DIR$/views/updateForm.jade" />
       </list>
     </option>
   </component>
@@ -206,20 +193,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eazy-pass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eazy-pass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,37 +334,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/eazy-pass.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="6" selection-start="961" selection-end="961" vertical-scroll-proportion="-0.018675722">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/dashboard.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="46" selection-start="294" selection-end="294" vertical-scroll-proportion="0.31239387">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/updateForm.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="50" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.3378608">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/movie.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="74" selection-start="505" selection-end="505" vertical-scroll-proportion="0.3378608">
           <folding />
         </state>
       </provider>
@@ -424,13 +369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="445" selection-end="447" vertical-scroll-proportion="-6.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="27" selection-start="506" selection-end="506" vertical-scroll-proportion="0.108658746">
@@ -445,13 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/api_router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -461,14 +392,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/submit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="50" selection-start="1382" selection-end="1382" vertical-scroll-proportion="0.40104166">
+        <state line="27" column="35" selection-start="831" selection-end="831" vertical-scroll-proportion="0.5449915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/movies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="62" selection-start="596" selection-end="596" vertical-scroll-proportion="0.49066213">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/createMovie.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="12" selection-start="3567" selection-end="3567" vertical-scroll-proportion="0.8958333">
+        <state line="19" column="39" selection-start="418" selection-end="418" vertical-scroll-proportion="0.30560273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dashboard.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="288" selection-end="288" vertical-scroll-proportion="0.31239387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="49" selection-start="814" selection-end="830" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/movie.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="67" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/updateForm.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="50" selection-start="315" selection-end="315" vertical-scroll-proportion="0.3820034">
           <folding />
         </state>
       </provider>

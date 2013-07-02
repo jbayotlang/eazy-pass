@@ -30,7 +30,7 @@ exports.updateForm = function(req, res){
        if (error) {
            res.render(error);
        } else {
-           res.render('updateForm', {movie: result});
+           res.render('updateForm', {movie: result, title: 'Update - Eazy Pass'});
        }
    })
 

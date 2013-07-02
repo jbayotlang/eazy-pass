@@ -13,14 +13,13 @@ block content
 
             ul.nav
                 li.active
-                    a(href="#") EazyPass
+                    a(href="/admin/dashboard/movie") EazyPass / #{movie.name}
             ul.nav.pull-right
 
     #wrap.ep-container
         .container
-            form(method='put', action="/v1/movies", style="margin: 0; padding: 0").form-horizontal
+            form(style="margin: 0; padding: 0").form-horizontal
                 fieldset
-                    legend Create new movie
                     .control-group
                         label.control-label(for='input01') Name
                         .controls
