@@ -1,0 +1,14 @@
+type
+required
+min-length
+max-length
+
+
+Handling Errors
+-----------------------------
+Log them
+
+
+
+Modular Pattern
+exports, 

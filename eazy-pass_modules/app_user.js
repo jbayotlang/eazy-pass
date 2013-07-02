@@ -41,12 +41,13 @@ exports.AppUserModule = function() {
             });
         },
 
+
         registerUser: function(user, callback) {
             var id = sandbox.GUID();
-            movie['id'] = id;
-            console.log(movie);
+            user['id'] = id;
+            console.log(user);
 
-            sandbox.save(movie, 'app_user', function(error, result) {
+            sandbox.save(user, 'app_user', function(error, result) {
                 if(error) {
                     callback(error);
                 } else {
@@ -56,10 +57,16 @@ exports.AppUserModule = function() {
             });
         },
 
-        getTransactions: function(id) {
-            return null;
+        deleteUserById: function(id, callback) {
+            sandbox.deleteById(id, 'app_user', function(error, result) {
+                if(error) {
+                    callback(error);
+                } else {
+                    callback(null, result);
+                }
+            });
         }
 
-    }
+}
 
 }

@@ -1,8 +1,10 @@
 var EasyPassServices = { },
 	MovieService = require('./movies'),
+    AppUserService = require('./app_user');
 
 EasyPassServices = {
-		'movies': MovieService
+		'movies': MovieService,
+        'app_user': AppUserService
 }
 
 exports.router = function(req, res) {
