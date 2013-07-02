@@ -43,7 +43,6 @@ MovieService.prototype.POST= function() {
             self.response.json(error);
         } else {
             self.response.status(201);
-            console.log(result);
             self.response.json(result);
         }
     });
@@ -52,7 +51,10 @@ MovieService.prototype.POST= function() {
 MovieService.prototype.PUT = function() {
     var self = this;
 
-    self.response.json()
+    var movie = self.request.body;
+
+    console.log('PUT method invoked');
+    console.log(movie);
 }
 
 MovieService.prototype.DELETE = function() {

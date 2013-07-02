@@ -33,22 +33,17 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+/*Pages*/
 app.get('/', routes.index);
 app.get('/admin/dashboard', admin.dashboard);
 
 app.get('/admin/dashboard/movie', movieModule.movie);
 app.get('/admin/dashboard/movie/create', movieModule.movieForm);
-app.get('/users', user.list);
+app.get('/admin/dashboard/movie/:id', movieModule.updateForm);
 
 
 app.all('/v1/:resource/:id?', api.router);
 
-/*app.get('/v1/movies', movie.movies);
-app.get('/v1/movies/1/details', movie.details);
-app.get('/v1/movies/1/trailers', movie.trailers);
-app.get('/v1/movies/1/galleries', movie.galleries);*/
-
-// Sample Data for DB
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

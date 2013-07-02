@@ -20,15 +20,27 @@ block content
 
             ul.nav
                 li.active
-                    a(href="#") EazyPass
+                    a(href="#") EazyPass / Dashboard
             ul.nav.pull-right
-                li.dropdown
-                    a(href="#",data-toggle="dropdown").dropdown-toggle Admin
-                        b.caret
-                ul.dropdown-menu
-                    li Edit Profile
-                    li Logout
-    #wrap.ep-container
-        .container
 
-        #push
+
+    #wrap.ep-container
+        .container2
+            a(href="/admin/dashboard/movie/create") Create new movie
+            table.table.table-striped
+                thead
+                    tr
+                        th #
+                        th Name
+                        th Genre
+                        th Showing Date
+
+                tbody
+                    - each movie in movies
+                        tr
+                            td=counter++
+                            td=movie.name
+                            td=movie.genre
+                            td=movie.date
+                            td
+                                a(href="/admin/dashboard/movie/#{movie.id}") Edit

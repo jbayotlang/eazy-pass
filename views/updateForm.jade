@@ -1,0 +1,71 @@
+//
+   Created with JetBrains WebStorm.
+   User: jhudiel
+   Date: 7/2/13
+   Time: 1:30 PM
+   To change this template use File | Settings | File Templates.
+
+extends layout
+
+block content
+    .navbar
+        .navbar-inner
+
+            ul.nav
+                li.active
+                    a(href="#") EazyPass
+            ul.nav.pull-right
+
+    #wrap.ep-container
+        .container
+            form(method='put', action="/v1/movies", style="margin: 0; padding: 0").form-horizontal
+                fieldset
+                    legend Create new movie
+                    .control-group
+                        label.control-label(for='input01') Name
+                        .controls
+                            input#input01.input-xlarge(type='text', name="name", value='#{movie.name}')
+                    .control-group
+                        label.control-label(for='input01') Theatre Date
+                        .controls
+                            input#input01.input-xlarge(type='text', name="date", value='#{movie.date}')
+                    .control-group
+                        label.control-label(for='input02') Poster
+                        .controls
+                            input#input02.input-xlarge(type='text', name="poster", value='#{movie.poster}')
+                            span.help-block (URL of the poster)
+                    .control-group
+                        label.control-label(for='input02') Trailer
+                        .controls
+                            input#input02.input-xlarge(type='text', name="trailer", value='#{movie.trailer}')
+                            span.help-block (URL of the trailer)
+                    .control-group
+                        label.control-label(for='input02') Director
+                        .controls
+                            input#input02.input-xlarge(type='text', name="director", value='#{movie.director}')
+                    .control-group
+                        label.control-label(for='input02') Cast
+                        .controls
+                            input#input02.input-xlarge(type='text', name="cast", value='#{movie.cast}')
+                            span.help-block (Separate with commas)
+                    .control-group
+                        label.control-label(for='input02') Genre
+                        .controls
+                            input#input02.input-xlarge(type='text', name="genre", value='#{movie.genre}')
+                            span.help-block (Separate with commas)
+                    .control-group
+                        label.control-label(for='input02') Synopsis
+                        .controls
+                            textarea#input02.input-xlarge(name="synopsis", style="height: 150px") #{movie.synopsis}
+                    .control-group
+                        label.control-label(for='input02') Gallery images
+                     - each gallery in movie.gallery
+                        .control-group
+                            .controls
+                                input#input02.input-xlarge(type='text', name="gallery[]", value='#{gallery}')
+
+
+                    .control-group
+                        .controls
+                            input.btn.btn-success(type='submit', value="Update")
+        #push

@@ -15,67 +15,68 @@ block content
                 li.active
                     a(href="#") EazyPass
             ul.nav.pull-right
-                li.dropdown
-                    a(href="#",data-toggle="dropdown").dropdown-toggle Admin
-                        b.caret
-                ul.dropdown-menu
-                    li Edit Profile
-                    li Logout
+
     #wrap.ep-container
         .container
-            form(method='post', action="/v1/movies", style="margin: 0; padding: 0").form-horizontal
+            form(style="margin: 0; padding: 0").form-horizontal
                 fieldset
                     legend Create new movie
                     .control-group
-                        label.control-label(for='input01') Name
+                        label.control-label(for='ep-name') Name
                         .controls
-                            input#input01.input-xlarge(type='text', name="name")
+                            input#ep-name.input-xlarge(type='text', name="name")
                     .control-group
-                        label.control-label(for='input01') Theatre Date
+                        label.control-label(for='ep-date') Theatre Date
                         .controls
-                            input#input01.input-xlarge(type='text', name="date")
+                            input#ep-date.input-xlarge(type='text', name="date")
                     .control-group
-                        label.control-label(for='input02') Poster
+                        label.control-label(for='ep-poster') Poster
                         .controls
-                            input#input02.input-xlarge(type='text', name="poster")
+                            input#ep-poster.input-xlarge(type='text', name="poster")
                             span.help-block (URL of the poster)
                     .control-group
-                        label.control-label(for='input02') Trailer
+                        label.control-label(for='ep-trailer') Trailer
                         .controls
-                            input#input02.input-xlarge(type='text', name="trailer")
+                            input#ep-trailer.input-xlarge(type='text', name="trailer")
                             span.help-block (URL of the trailer)
                     .control-group
-                        label.control-label(for='input02') Director
+                        label.control-label(for='ep-director') Director
                         .controls
-                            input#input02.input-xlarge(type='text', name="director")
+                            input#ep-director.input-xlarge(type='text', name="director")
                     .control-group
-                        label.control-label(for='input02') Cast
+                        label.control-label(for='ep-cast') Cast
                         .controls
-                            input#input02.input-xlarge(type='text', name="cast")
+                            input#ep-cast.input-xlarge(type='text', name="cast")
                             span.help-block (Separate with commas)
                     .control-group
-                        label.control-label(for='input02') Genre
+                        label.control-label(for='ep-genre') Genre
                         .controls
-                            input#input02.input-xlarge(type='text', name="genre")
+                            input#ep-genre.input-xlarge(type='text', name="genre")
                             span.help-block (Separate with commas)
                     .control-group
-                        label.control-label(for='input02') Synopsis
+                        label.control-label(for='ep-synopsis') Synopsis
                         .controls
-                            textarea#input02.input-xlarge(name="synopsis", style="height: 150px")
+                            textarea#ep-synopsis.input-xlarge(name="synopsis", style="height: 150px")
                     .control-group
-                        label.control-label(for='input02') Gallery images
+                        label.control-label(for='gallery') Gallery images
                         .controls
-                            input#input02.input-xlarge(type='text', name="gallery[]")
-                    .control-group
-                        .controls
-                            input#input02.input-xlarge(type='text', name="gallery[]")
+                            input#gallery.input-xlarge.gallery(type='text', name="gallery[]")
                     .control-group
                         .controls
-                            input#input02.input-xlarge(type='text', name="gallery[]")
+                            input#gallery.input-xlarge.gallery(type='text', name="gallery[]")
                     .control-group
                         .controls
-                            input#input02.input-xlarge(type='text', name="gallery[]")
+                            input#gallery.input-xlarge.gallery(type='text', name="gallery[]")
                     .control-group
                         .controls
-                            input.btn.btn-success(type='submit', value="Create")
+                            input#gallery.input-xlarge.gallery(type='text', name="gallery[]")
+                    .control-group
+                        .controls
+                            input#createMovie.btn.btn-success(type='submit', value="Create")
+
         #push
+        #notif.alert.alert-success
+            p Movie entry created!
+        .progress
+            .bar
+        script(src='/static/js/submit.js')

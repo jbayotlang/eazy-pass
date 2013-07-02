@@ -66,6 +66,13 @@ body {
     width: auto;
     max-width: 550px;
 }
+
+.container2 {
+    width: auto;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
 .container .credit {
     /*margin: 20px 0;*/
 }

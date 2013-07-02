@@ -135,6 +135,8 @@ app.get('/v1/users', function(req, res) {
     });
 });
 
+
+
 app.get('/register', function(req, res) {
     res.render('register', {
         title: 'Registration'

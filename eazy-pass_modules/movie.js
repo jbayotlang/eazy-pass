@@ -35,7 +35,7 @@ exports.MovieModule = function() {
                    if(result.length <= 0) {
 
                        callback(null, 'No movie for id: ' + id);
-                    } else {          1
+                    } else {
                        callback(null, result);
                     }
                 }
@@ -45,7 +45,6 @@ exports.MovieModule = function() {
         createNewMovieEntry: function(movie, callback) {
             var id = sandbox.GUID();
             movie['id'] = id;
-            console.log(movie);
 
             sandbox.save(movie, 'movie', function(error, result) {
                if(error) {

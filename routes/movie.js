@@ -9,24 +9,30 @@
 var movieModule = require('../eazy-pass_modules/movie').MovieModule();
 
 exports.movie = function(req, res) {
-    res.render('movie', { title: 'Eazy Pass' });
+     movieModule.getAllMovies(function(error, results) {
+        if (error) {
+            res.render(error);
+        } else {
+            res.render('movie', {movies: results, counter: 1});
+        }
+     });
+
 }
 
 exports.movieForm = function(req, res) {
     res.render('createMovie', {title: 'Create new movie - Eazy Pass'});
 }
 
-//exports.create = function(req, res) {
-//
-//    var movie = req.body;
-//    console.log(movie);
-//    movieModule.createNewMovieEntry(movie, function(error, result) {
-//        if(error) {
-//            self.response.json(error);
-//        } else {
-//            self.response.status(201);
-//            console.log(result);
-//            self.response.json(result);
-//        }
-//    });
-//}
+exports.updateForm = function(req, res){
+   var id = req.params.id;
+
+   movieModule.getMovieById(id, function(error, result) {
+       if (error) {
+           res.render(error);
+       } else {
+           res.render('updateForm', {movie: result});
+       }
+   })
+
+
+}
