@@ -48,7 +48,7 @@ $(document).ready(function() {
 
             },
             success: function(result) {
-                window.location = 'http://localhost:3000/admin/dashboard/movie';
+                window.location = 'http://eazy-pass.herokuapp.com/admin/dashboard/movie';
             },
             error: function(error) {
 
