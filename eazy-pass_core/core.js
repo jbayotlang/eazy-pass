@@ -51,7 +51,6 @@ core.findById = function(id, collection, callback) {
             if (error) {
                 callback(error);
             } else {
-                console.log(result);
                 callback(null, result);
             }
         });

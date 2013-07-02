@@ -31,10 +31,10 @@ exports.AppUserModule = function() {
                 if(error) {
                     callback(error);
                 } else {
-                    if(result.length <= 0) {
+                    if(!result) {
 
                         callback(null, 'No user with id: ' + id);
-                    } else {          1
+                    } else {
                         callback(null, result);
                     }
                 }

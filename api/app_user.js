@@ -12,7 +12,7 @@ AppUserService = function(req, res) {
     this.request = req,
         this.response = res
 
-    var errorObj = {};
+
 }
 
 AppUserService.prototype.GET= function() {
@@ -21,6 +21,7 @@ AppUserService.prototype.GET= function() {
 
     if (self.request.param('id')) {
 
+        console.log(id);
         appUserModule.getUserById(id, function(error, result) {
             if(error) {
                 self.response.json(error);

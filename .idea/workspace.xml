@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app_user.js" afterPath="$PROJECT_DIR$/api/app_user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eazy-pass_modules/app_user.js" afterPath="$PROJECT_DIR$/eazy-pass_modules/app_user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eazy-pass_core/core.js" afterPath="$PROJECT_DIR$/eazy-pass_core/core.js" />
     </list>
     <ignored path="eazy-pass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +41,7 @@
     <file path="$PROJECT_DIR$/../../POC/Data-Dictionary/addDataDB.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372669124857" ignored="false" />
     <file path="/addDataDB.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372669112298" ignored="false" />
     <file path="/createMovie.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372757999859" ignored="false" />
-    <file path="/app_user.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372774068159" ignored="false" />
+    <file path="/app_user.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372777962562" ignored="false" />
     <file path="/movie.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372768061212" ignored="false" />
     <file path="/updateForm.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372758318414" ignored="false" />
     <file path="/submit.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372764656475" ignored="false" />
@@ -62,7 +64,44 @@
     <favorites_list name="eazy-pass" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="core.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eazy-pass_core/core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="36" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-3.4642856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sandbox.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eazy-pass_core/sandbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="51" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_user.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eazy-pass_modules/app_user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="43" selection-start="530" selection-end="530" vertical-scroll-proportion="0.4074703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/app_user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="62" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -86,7 +125,6 @@
         <option value="$PROJECT_DIR$/views/updateForm.jade" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/movie.jade" />
-        <option value="$PROJECT_DIR$/eazy-pass_core/core.js" />
         <option value="$PROJECT_DIR$/eazy-pass_core/sandbox.js" />
         <option value="$PROJECT_DIR$/eazy-pass_modules/movie.js" />
         <option value="$PROJECT_DIR$/public/js/delete.js" />
@@ -94,16 +132,17 @@
         <option value="$PROJECT_DIR$/public/js/submit.js" />
         <option value="$PROJECT_DIR$/api/api_router.js" />
         <option value="$PROJECT_DIR$/api/movies.js" />
-        <option value="$PROJECT_DIR$/eazy-pass_modules/app_user.js" />
+        <option value="$PROJECT_DIR$/eazy-pass_core/core.js" />
         <option value="$PROJECT_DIR$/api/app_user.js" />
+        <option value="$PROJECT_DIR$/eazy-pass_modules/app_user.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="29" />
-    <option name="width" value="1301" />
-    <option name="height" value="763" />
+    <option name="x" value="56" />
+    <option name="y" value="-4" />
+    <option name="width" value="1311" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,6 +202,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eazy-pass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eazy-pass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -219,13 +272,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="29" width="1301" height="763" extended-state="0" />
-    <editor active="false" />
+    <frame x="56" y="-4" width="1311" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16718996" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16588785" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19859813" sideWeight="0.42649436" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -315,30 +368,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="50" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.6943973">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/movie.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="58" selection-start="999" selection-end="999" vertical-scroll-proportion="0.6466431">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eazy-pass_core/sandbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="18" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.5595855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eazy-pass_core/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="18" selection-start="2825" selection-end="2825" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -371,23 +403,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/api_router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="194" selection-end="194" vertical-scroll-proportion="0.21201414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eazy-pass_modules/movie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="43" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3180212">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app_user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="31" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.3523316">
           <folding />
         </state>
       </provider>
@@ -408,9 +426,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="40" selection-start="808" selection-end="808" vertical-scroll-proportion="0.31239387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api_router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="454" selection-end="454" vertical-scroll-proportion="0.4074703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eazy-pass_core/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="36" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-3.4642856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app_user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="62" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eazy-pass_core/sandbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="51" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eazy-pass_modules/app_user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="36" selection-start="1522" selection-end="1522" vertical-scroll-proportion="1.3471502">
+        <state line="19" column="43" selection-start="530" selection-end="530" vertical-scroll-proportion="0.4074703">
           <folding />
         </state>
       </provider>
