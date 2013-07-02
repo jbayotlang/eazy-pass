@@ -18,7 +18,7 @@ exports.AppUserModule = function() {
                     callback(error);
                 } else {
                     if (results.length <= 0) {
-                        callback(null, 'No saved movies');
+                        callback(null, 'No registerd user');
                     } else {
                         callback(null, results);
                     }
@@ -33,7 +33,7 @@ exports.AppUserModule = function() {
                 } else {
                     if(result.length <= 0) {
 
-                        callback(null, 'No movie for id: ' + id);
+                        callback(null, 'No user with id: ' + id);
                     } else {          1
                         callback(null, result);
                     }
