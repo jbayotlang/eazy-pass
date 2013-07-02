@@ -96,8 +96,7 @@ $(document).ready(function() {
 
             },
             success: function(result) {
-                $('#notif').show();
-                $('.progress').hide();
+                window.location = 'http://localhost:3000/admin/dashboard/movie';
             },
             error: function(error) {
 

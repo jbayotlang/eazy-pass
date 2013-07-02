@@ -39,7 +39,8 @@ app.get('/admin/dashboard', admin.dashboard);
 
 app.get('/admin/dashboard/movie', movieModule.movie);
 app.get('/admin/dashboard/movie/create', movieModule.movieForm);
-app.get('/admin/dashboard/movie/:id', movieModule.updateForm);
+app.get('/admin/dashboard/movie/:id/update', movieModule.updateForm);
+app.get('/admin/dashboard/movie/:id/delete', movieModule.updateForm);
 
 
 app.all('/v1/:resource/:id?', api.router);

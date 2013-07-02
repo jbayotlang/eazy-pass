@@ -43,4 +43,8 @@ block content
                             td=movie.genre
                             td=movie.date
                             td
-                                a(href="/admin/dashboard/movie/#{movie.id}") Edit
+                                a(href="/admin/dashboard/movie/#{movie.id}/update") Edit |
+                                input(type='hidden', value='#{movie.id}')
+                                a#delete(href="javascript:void(0)")  Delete
+
+     script(src='/static/js/delete.js')

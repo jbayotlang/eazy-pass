@@ -56,6 +56,17 @@ exports.MovieModule = function() {
             });
         },
 
+        deleteMovieById: function(id, callback) {
+
+            sandbox.deleteById(id, 'movie', function(error, result) {
+                if(error) {
+                    callback(error);
+                } else {
+                    callback(null, result);
+                }
+            })
+        },
+
         getMovieGallery: function(id) {
             return null;
         },

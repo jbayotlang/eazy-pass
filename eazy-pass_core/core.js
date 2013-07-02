@@ -94,6 +94,18 @@ core.update = function(collection, callback) {
       })
 }
 
+core.deleteById = function(id, collection, callback) {
+    getCollection(collection, function(error, collection) {
+        collection.remove({id: id}, 1, function(error, result) {
+            if(error) {
+                callback(error);
+            } else {
+                callback(null, result);
+            }
+        })
+    })
+}
+
 core.GUID = function() {
     return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
 }

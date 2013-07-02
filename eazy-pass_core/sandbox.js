@@ -51,6 +51,18 @@ Sandbox.prototype.save = function(entity, collection, callback) {
     })
 }
 
+Sandbox.prototype.deleteById = function(id, collection, callback) {
+    var self = this;
+
+    return core.deleteById(id, collection, function(error, result) {
+        if(error) {
+            callback(error);
+        } else {
+            callback(null, result);
+        }
+    })
+}
+
 Sandbox.prototype.GUID = function() {
     return core.GUID();
 }

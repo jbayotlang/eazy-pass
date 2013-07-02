@@ -58,9 +58,23 @@ MovieService.prototype.PUT = function() {
 }
 
 MovieService.prototype.DELETE = function() {
-    var self = this;
+    var self = this,
+        id = self.request.param('id');
 
-    self.response.json;
+    console.log('DELETE Method invoked!');
+    console.log(id);
+
+    movieModule.deleteMovieById(id, function(error, result) {
+        if(error) {
+            console.log(error);
+            self.response.json(error);
+        } else {
+            console.log(result);
+            self.response.json(result);
+        }
+    })
+
+
 }
 
 module.exports = MovieService;
