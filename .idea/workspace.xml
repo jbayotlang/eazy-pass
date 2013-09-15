@@ -5,22 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app_user.js" afterPath="$PROJECT_DIR$/api/app_user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eazy-pass_modules/app_user.js" afterPath="$PROJECT_DIR$/eazy-pass_modules/app_user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eazy-pass_core/core.js" afterPath="$PROJECT_DIR$/eazy-pass_core/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eazy-pass.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372703654321" ignored="false" />
-    <file path="/app.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372741989459" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376312312781" ignored="false" />
+    <file path="/app.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376313721115" ignored="false" />
     <file path="/layout.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372252159498" ignored="false" />
     <file path="/index.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372754383442" ignored="false" />
     <file path="/eazy-pass.css" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372742344352" ignored="false" />
     <file path="/dashboard.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372758022794" ignored="false" />
     <file path="/dashboard.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372253951815" ignored="false" />
     <file path="/index.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372254098200" ignored="false" />
-    <file path="/core.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372771149832" ignored="false" />
-    <file path="/globals.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372315431470" ignored="false" />
+    <file path="/core.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1374324501494" ignored="false" />
+    <file path="/globals.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1374318148549" ignored="false" />
     <file path="/data_dictionary.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372322604733" ignored="false" />
     <file path="/sandbox.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372771229043" ignored="false" />
     <file path="/movies.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372773803567" ignored="false" />
@@ -41,11 +40,31 @@
     <file path="$PROJECT_DIR$/../../POC/Data-Dictionary/addDataDB.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372669124857" ignored="false" />
     <file path="/addDataDB.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372669112298" ignored="false" />
     <file path="/createMovie.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372757999859" ignored="false" />
-    <file path="/app_user.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372777962562" ignored="false" />
+    <file path="/app_user.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1374163712807" ignored="false" />
     <file path="/movie.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372768061212" ignored="false" />
     <file path="/updateForm.jade" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372758318414" ignored="false" />
     <file path="/submit.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372764656475" ignored="false" />
     <file path="/delete.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1372772413098" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/eazypass_core/core.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1374324502737" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/eazypass_core/globals.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375552885553" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/eazypass_core/sanbox.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1374324420218" ignored="false" />
+    <file path="/sanbox.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1374324420218" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/connection.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375560821635" ignored="false" />
+    <file path="/connection.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375560821635" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/useConnection.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375386318383" ignored="false" />
+    <file path="/useConnection.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375386189479" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/sample2.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375560884504" ignored="false" />
+    <file path="/sample2.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375560882802" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/app.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375560914046" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/EventEmitter_Modules/module1.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375554251515" ignored="false" />
+    <file path="$USER_HOME$/POCs/EventEmitters/EventEmitter_Modules/module2.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1375554254033" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Hera/projecthera2/hera_core/repository.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376321844512" ignored="false" />
+    <file path="/repository.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376321815195" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Hera/projecthera2/app.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376313722482" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Hera/projecthera2/repository-test.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376324956564" ignored="false" />
+    <file path="/repository-test.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376322723411" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Hera/projecthera2/hera_core/repository2.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376322694678" ignored="false" />
+    <file path="/repository2.js" changelist="8f35ac8d-8d95-4cdc-a77c-75fdc685a9b3" time="1376322671760" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,44 +83,52 @@
     <favorites_list name="eazy-pass" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="core.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eazy-pass_core/core.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="36" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-3.4642856">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sandbox.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eazy-pass_core/sandbox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="51" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_user.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eazy-pass_modules/app_user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="43" selection-start="530" selection-end="530" vertical-scroll-proportion="0.4074703">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app_user.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/app_user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="62" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="movie.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/eazy-pass_modules/movie.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="54" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="movies.js" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/api/movies.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="86" selection-start="505" selection-end="505" vertical-scroll-proportion="0.34336525">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="core.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/eazy-pass_core/core.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="31" column="24" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="sandbox.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/eazy-pass_core/sandbox.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="59" column="38" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.6511628">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -123,7 +150,6 @@
         <option value="$PROJECT_DIR$/routes/movie.js" />
         <option value="$PROJECT_DIR$/views/dashboard.jade" />
         <option value="$PROJECT_DIR$/views/updateForm.jade" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/movie.jade" />
         <option value="$PROJECT_DIR$/eazy-pass_core/sandbox.js" />
         <option value="$PROJECT_DIR$/eazy-pass_modules/movie.js" />
@@ -132,17 +158,18 @@
         <option value="$PROJECT_DIR$/public/js/submit.js" />
         <option value="$PROJECT_DIR$/api/api_router.js" />
         <option value="$PROJECT_DIR$/api/movies.js" />
-        <option value="$PROJECT_DIR$/eazy-pass_core/core.js" />
         <option value="$PROJECT_DIR$/api/app_user.js" />
         <option value="$PROJECT_DIR$/eazy-pass_modules/app_user.js" />
+        <option value="$PROJECT_DIR$/eazy-pass_core/core.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="-4" />
-    <option name="width" value="1311" />
-    <option name="height" value="773" />
+    <option name="x" value="1366" />
+    <option name="y" value="24" />
+    <option name="width" value="1600" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,7 +225,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="eazy-pass_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eazy-pass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eazy-pass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eazy-pass_core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -272,13 +313,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-4" width="1311" height="773" extended-state="6" />
+    <frame x="1366" y="24" width="1600" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16588785" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14521243" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19859813" sideWeight="0.42649436" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -356,114 +397,92 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="49" selection-start="814" selection-end="830" vertical-scroll-proportion="0.50933784">
-          <folding />
-        </state>
+        <state line="20" column="49" selection-start="814" selection-end="830" vertical-scroll-proportion="0.50933784" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/dashboard.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="288" selection-end="288" vertical-scroll-proportion="0.31239387">
-          <folding />
-        </state>
+        <state line="15" column="30" selection-start="288" selection-end="288" vertical-scroll-proportion="0.31239387" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/movie.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="58" selection-start="999" selection-end="999" vertical-scroll-proportion="0.6466431">
-          <folding />
-        </state>
+        <state line="40" column="58" selection-start="999" selection-end="999" vertical-scroll-proportion="0.6466431" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/delete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="15" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="15" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/createMovie.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="11" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="11" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/submit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="469" selection-end="469" vertical-scroll-proportion="0.46632123">
-          <folding />
-        </state>
+        <state line="18" column="30" selection-start="469" selection-end="469" vertical-scroll-proportion="0.46632123" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="62" selection-start="596" selection-end="596" vertical-scroll-proportion="0.49222797">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eazy-pass_modules/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="278" selection-end="278" vertical-scroll-proportion="0.3180212">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/movies.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="177" selection-end="177" vertical-scroll-proportion="0.23316061">
-          <folding />
-        </state>
+        <state line="23" column="62" selection-start="596" selection-end="596" vertical-scroll-proportion="0.49222797" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/system_user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api_router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="454" selection-end="454" vertical-scroll-proportion="0.4074703" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eazy-pass_modules/app_user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="79" selection-start="866" selection-end="866" vertical-scroll-proportion="0.7385399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/app_user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="62" selection-start="335" selection-end="335" vertical-scroll-proportion="0.027422303">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="808" selection-end="808" vertical-scroll-proportion="0.31239387">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/api_router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="454" selection-end="454" vertical-scroll-proportion="0.4074703">
+        <state line="23" column="15" selection-start="576" selection-end="576" vertical-scroll-proportion="0.0625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eazy-pass_core/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="36" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-3.4642856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app_user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="62" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+        <state line="31" column="24" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eazy-pass_core/sandbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="51" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0">
+        <state line="59" column="38" selection-start="1485" selection-end="1485" vertical-scroll-proportion="0.6511628">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eazy-pass_modules/app_user.js">
+    <entry file="file://$PROJECT_DIR$/eazy-pass_modules/movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="43" selection-start="530" selection-end="530" vertical-scroll-proportion="0.4074703">
+        <state line="22" column="54" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/movies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="86" selection-start="505" selection-end="505" vertical-scroll-proportion="0.34336525">
           <folding />
         </state>
       </provider>
